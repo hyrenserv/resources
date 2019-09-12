@@ -8,10 +8,10 @@
 2. 方法的代码中，必须有一段注释是：数据可访问权限处理方式  
   错误的代码：  
   ![示例图](https://github.com/hyrenserv/resources/raw/master/feedwork-java/docs/ReviewRules/2-method-auth-w1.png)
-
+  　
   正确的编码方式：**在方法开头，进行全局的数据权限检查**  
   ![示例图](https://github.com/hyrenserv/resources/raw/master/feedwork-java/docs/ReviewRules/2-method-auth-c1.png)
-
+  　
   正确的编码方式：**对于只有一次DB访问，在SQL中增加了用户数据权限限定的条件**  
   ![示例图](https://github.com/hyrenserv/resources/raw/master/feedwork-java/docs/ReviewRules/2-method-auth-c2.png)
 
