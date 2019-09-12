@@ -6,7 +6,9 @@
   ![示例图](https://github.com/hyrenserv/resources/raw/master/feedwork-java/docs/ReviewRules/1-method-mark.png)
 2. 方法的代码中，必须有一段注释是：数据可访问权限处理方式  
   类似如下图：  
-  ![示例图](https://github.com/hyrenserv/resources/raw/master/feedwork-java/docs/ReviewRules/1-method-mark.png)
+  ![示例图](https://github.com/hyrenserv/resources/raw/master/feedwork-java/docs/ReviewRules/2-method-auth-w1.png)
+  ![示例图](https://github.com/hyrenserv/resources/raw/master/feedwork-java/docs/ReviewRules/2-method-auth-c1.png)
+  ![示例图](https://github.com/hyrenserv/resources/raw/master/feedwork-java/docs/ReviewRules/2-method-auth-c2.png)
 3. 每个方法都要写测试用例。使用"类名"+Test命名，里面的方法与被测试方法同名  
 4. 正确使用异常。只能用两个异常：BusinessException和AppSystemException。查找“throw new ”，后面必须是这两个异常。如果不是，要有原因说明。  
 5. 代码行宽度不能超过100个字符。  
