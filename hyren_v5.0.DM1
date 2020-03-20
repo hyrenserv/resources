@@ -113,7 +113,7 @@ VersionId,Version_ID,Copyright,Global_User_ID,Row_Time_Stamp
 
 Diagram
 DiagramId,Version_ID,VersionId,LastUpdate,CreateDate,ActiveModel,ActiveSubmodel,VSplitterPosition,X,Y,Width,Height,DiagramNameId,AuthorId,CompanyId,VersionNoId,CopyrightStringId,DefinitionId,UnificationOptionId,FileNameId,CopyrightYearStringId,DiagramName,CodePage,SignatureGUID,ReleaseName,Flags,Global_User_ID,Row_Time_Stamp
-1,1,800,03/20/2020 14:43:28G,02/18/2020 11:16:11G,1,10,180,0,0,0,0,1696,363,363,364,363,0,365,1697,0,1hyren_v5.0.DM1,936,NULL,"",0,1,0
+1,1,800,03/20/2020 14:48:27G,02/18/2020 11:16:11G,1,10,180,0,0,0,0,1696,363,363,364,363,0,365,1697,0,1hyren_v5.0.DM1,936,NULL,"",0,1,0
 
 Model
 DiagramId,ModelId,Model_ID,ModelType,PlatformId,NamePrefix,SpaceHandling,CaseHandling,GenPrimaryKey,GenAlternateKey,GenInversionEntry,GenForeignKey,Notation,ModelNameId,RowOverhead,TableOverhead,IndexOverhead,BlobOverhead,BlobBlockSize,Global_User_ID,Row_Time_Stamp
@@ -171,7 +171,7 @@ DiagramId,ModelId,SubmodelId,DiagramDisplay_ID,Submodel_ID,PlatformId,Animate,Zo
 1,1,7,5,5,0,0,8888,0,0,-557,713,1,1,8,3264,1,0,1,0,1,1,0,0,0,0,0,1,4137,0,1,6,7,0,0,0,0,0,1,0,1,10
 1,1,8,6,6,0,0,9945,0,0,-588,296,1,1,8,3264,1,0,1,0,1,1,0,0,0,0,0,1,5106,0,1,6,7,0,0,0,0,0,1,0,1,10
 1,1,9,7,7,0,0,9898,0,0,-1037,503,1,1,8,3264,1,0,1,0,1,1,0,0,0,0,0,1,6421,0,1,6,7,0,0,0,0,0,1,0,1,10
-1,1,10,8,8,0,0,9824,0,0,-1252,368,1,1,8,3264,1,0,1,0,1,1,0,0,0,0,0,1,6511,0,1,6,7,0,0,0,0,0,1,0,1,10
+1,1,10,8,8,0,0,9824,0,0,-1669,367,1,1,8,3264,1,0,1,0,1,1,0,0,0,0,0,1,6511,0,1,6,7,0,0,0,0,0,1,0,1,10
 1,1,11,9,9,0,0,8254,0,0,-874,601,1,1,8,3264,1,0,1,0,1,1,0,0,0,0,0,1,6601,0,1,6,7,0,0,0,0,0,1,0,1,10
 
 GridDisplay
@@ -1348,7 +1348,7 @@ DiagramId,ModelId,EntityId,AttributeId,Attribute_ID,Entity_ID,UserDatatypeId,Rul
 1,1,81,13,844,81,0,0,0,0,681,681,0,0,681,681,1086,1,-2,-1,N,0,0,14,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3124,0
 1,1,167,9,2054,170,0,0,0,0,2123,2124,0,0,2123,2123,1086,0,-2,-1,N,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8088,0
 1,1,81,14,849,81,0,0,0,0,247,248,0,0,0,0,76,1,10,-1,N,1,1,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3133,0
-1,1,167,10,2061,170,0,0,0,0,11,2286,0,0,0,0,70,0,1,-1,N,1,1,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8133,0
+1,1,167,10,2061,170,0,0,0,0,2287,2286,0,0,0,0,70,0,1,-1,N,1,1,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,8133,0
 1,1,81,15,851,81,0,0,0,0,89,249,0,0,0,0,76,1,10,-1,N,1,1,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3136,0
 1,1,81,16,853,81,0,0,0,0,250,251,0,0,0,0,70,0,1,-1,N,1,1,13,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3139,0
 1,1,81,18,1295,81,0,0,0,0,274,240,0,0,274,274,1086,0,-2,-1,N,0,0,15,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4701,0
@@ -3175,8 +3175,8 @@ ForeignKeyColumn_Id,DiagramId,ModelId,RelationshipId,ForeignKey_ID,SequenceNo,Pa
 85,1,1,49,49,2,42,8,32,47,42,8,2107,0
 307,1,1,248,250,2,160,1,161,7,160,1,7711,0
 61,1,1,50,50,3,42,2,33,42,42,2,1555,0
-69,1,1,51,51,4,42,2,35,48,42,2,1563,0
 87,1,1,51,51,1,42,8,35,65,42,8,2113,0
+69,1,1,51,51,4,42,2,35,48,42,2,1563,0
 194,1,1,151,153,5,114,1,112,7,114,1,5098,0
 309,1,1,250,252,2,160,1,162,8,160,1,7749,0
 311,1,1,252,254,2,160,1,164,21,160,1,7806,0
@@ -3230,8 +3230,8 @@ ForeignKeyColumn_Id,DiagramId,ModelId,RelationshipId,ForeignKey_ID,SequenceNo,Pa
 167,1,1,130,131,20,101,1,99,49,101,1,4658,0
 270,1,1,230,232,28,149,1,151,31,149,1,7197,0
 169,1,1,132,133,12,73,2,98,18,73,2,4670,0
-272,1,1,232,234,3,154,4,155,3,154,4,7273,0
 274,1,1,232,234,2,154,12,155,4,154,12,7275,0
+272,1,1,232,234,3,154,4,155,3,154,4,7273,0
 171,1,1,134,135,7,34,1,71,8,34,1,4691,0
 276,1,1,233,235,3,154,4,157,3,154,4,7277,0
 173,1,1,136,137,15,34,1,81,18,34,1,4703,0
@@ -4052,10 +4052,10 @@ Path_Node_ID,RelationshipDisplay_ID,View_Relationship_Display_ID,SupertypeDispla
 192,634,0,0,0,0,0,-474,196,3
 193,634,0,0,0,0,0,-474,144,4
 194,634,0,0,0,0,0,-385,144,5
-195,636,0,0,0,0,0,-382,126,1
-196,636,0,0,0,0,0,-338,126,2
-197,507,0,0,0,0,0,189,-93,1
-198,507,0,0,0,0,0,189,-542,2
+195,507,0,0,0,0,0,189,-93,1
+196,507,0,0,0,0,0,189,-542,2
+197,636,0,0,0,0,0,-382,126,1
+198,636,0,0,0,0,0,-338,126,2
 199,510,0,0,0,0,0,-229,135,1
 200,510,0,0,0,0,0,452,135,2
 201,510,0,0,0,0,0,452,-361,3
@@ -6416,6 +6416,7 @@ String_Id,Data,Overflow,ConstantString,Row_Time_Stamp
 2284,集市字段存储信息,0,0,0
 2285,dm_column_storage,0,0,0
 2286,is_successful,0,0,0
+2287,是否入库成功,0,0,0
 
 LargeString
 String_Id,Data,Row_Time_Stamp
@@ -9202,7 +9203,7 @@ StringUsage_Id,UniqueObject_Id,StringUsageType_Id,String_Id,Row_Time_Stamp
 2929,2512,15,81,0
 2930,2512,62,76,0
 2931,2514,14,425,0
-8687,8133,14,11,0
+8687,8133,14,2287,0
 2932,2514,15,426,0
 8688,8133,15,2286,0
 2933,2514,62,76,0
@@ -11325,7 +11326,7 @@ Identity_Value_ID,Table_Name,Column_Name,Next_Valid_Value,Global_User_ID,Row_Tim
 14,Bound_Dictionary_Object,Bound_Dictionary_Object_ID,1956,0,0
 15,CheckConstraints,CheckConstraints_ID,1,0,0
 16,Circular_Layout,Circular_Layout_ID,11,0,0
-17,ColorDefault,ColorDefault_ID,4095,0,0
+17,ColorDefault,ColorDefault_ID,4113,0,0
 18,Column_Usage,Column_Usage_ID,1,0,0
 19,Components_Layout,Components_Layout_ID,11,0,0
 20,Configuration_Option,Configuration_Option_ID,1,0,0
@@ -13479,8 +13480,8 @@ Bound_Dictionary_Object_ID,Dictionary_Object_ID,MetaTable_ID,Table_Row_ID,Flags,
 682,145,3,823,0,0,0,3084
 1953,115,3,2060,0,0,0,8128
 1954,139,3,2061,0,0,0,8134
-1955,247,3,1989,0,0,0,8135
 684,107,3,825,0,0,0,3088
+1955,247,3,1989,0,0,0,8135
 687,107,3,828,0,0,0,3094
 688,139,3,829,0,0,0,3096
 689,151,3,830,0,0,0,3098
@@ -13916,8 +13917,8 @@ Dictionary_Object_Type_ID,Name,Dictionary_Object_Type,Data_Type
 
 Dictionary_Object
 Dictionary_Object_ID,Data_Dictionary_ID,Dictionary_Object_Type_ID,Property_Value_Data_Type,Global_User_ID
-286,1,8,0,5805
 1,1,9,0,111
+286,1,8,0,5805
 2,1,10,0,112
 287,1,8,0,5806
 3,1,10,0,113
@@ -14366,10 +14367,10 @@ Delayed_Checkout_ID,ObjectTechKey,DependencyType,DependencyTechKey,UniqueObject_
 UniqueObject
 UniqueObject_Id,ObjectType_Id,Model_ID,Object_Domain_ID,InterModel_Id,IntraModelObject_Id,GUID,VersionGUID,CreationDate,CreateDate,RepositoryStatus,LastUpdateDate,Row_Time_Stamp
 6697,71,1,1,7,0,4f3b6bc4b7ba4ed784f721c2309ac0d1,bb3577ddfb3246d1ab487e4bcb7ca054,03/19/2020 07:19:35G,1584602375,1,0,0
-6698,72,1,1,7,0,5b17e2d74dd04e31b4d61390c69c8426,29214c2578f14fab9c3dcc51da215f53,03/19/2020 07:19:35G,1584602375,1,0,0
 1,4,0,1,1,0,d91db75540d9475ea5a4c6a4319e112a,99307e4607054600bdf98a82ce80f8dc,09/10/2019 07:43:54G,1568101207,1,0,0
-6699,73,1,1,7,0,16c64d40a8fc47a881f4072a878ac9bf,9e38c7cb69084a34a736d037bb5290e9,03/19/2020 07:19:35G,1584602375,1,0,0
+6698,72,1,1,7,0,5b17e2d74dd04e31b4d61390c69c8426,29214c2578f14fab9c3dcc51da215f53,03/19/2020 07:19:35G,1584602375,1,0,0
 2,55,0,2,1,0,6ce9f65da4b740acb539ba1278992d81,88d5c01644424342b0a835c3f9d47e56,09/10/2019 07:43:54G,1568101207,1,0,0
+6699,73,1,1,7,0,16c64d40a8fc47a881f4072a878ac9bf,9e38c7cb69084a34a736d037bb5290e9,03/19/2020 07:19:35G,1584602375,1,0,0
 3,7,1,1,0,0,1ab8763bfb464cb9ba6fd460b4756ecc,15558299161242929d00e77fac79e1de,09/10/2019 07:43:54G,1568101207,1,0,0
 6700,74,1,1,7,0,68bf7efb1d924884a9b707b6343cb3a9,0682433233eb42acbb1181ed42c6a741,03/19/2020 07:19:35G,1584602375,1,0,0
 4,53,0,1,0,0,da5d0bd5746d4fc6a700b445eaee9df7,55f4d54c43ee4b9aa0fa227c36ba188e,09/10/2019 07:43:54G,1568101207,1,0,0
@@ -15867,8 +15868,8 @@ UniqueObject_Id,ObjectType_Id,Model_ID,Object_Domain_ID,InterModel_Id,IntraModel
 8133,1,1,1,10,167,01dbe448f8d74eb89c238de6d32ef2af,a88af551300b4ad891e69e20f2d07f14,03/20/2020 06:20:34G,1584685232,1,0,0
 1437,57,0,2,89,0,535c310b17964e20a0085006bdefe564,cc38d06df1d84a9bbf955abe0158bc19,09/10/2019 07:43:54G,1568101379,1,0,0
 8134,48,0,0,0,0,3a0a528d46bf45f0baccf4ad8caf2c65,4ff79f4d9abb42088c42a70892df70d5,03/20/2020 06:20:34G,1584685232,1,0,0
-8135,48,0,0,0,0,6b2c2ab34da4409e9025f199edaf2aa4,bd569477cfa44d38bb02dba2566cb5ed,03/20/2020 06:41:46G,1584686505,1,0,0
 1438,57,0,2,90,0,9666e5301dc84cedb1582c7053d0ef50,d4186ca7d0fb479aaeec393245598844,09/10/2019 07:43:54G,1568101379,1,0,0
+8135,48,0,0,0,0,6b2c2ab34da4409e9025f199edaf2aa4,bd569477cfa44d38bb02dba2566cb5ed,03/20/2020 06:41:46G,1584686505,1,0,0
 1439,57,0,2,91,0,a76cbb2fc4eb4ef08098feec0866f43f,cb7b73cd71f5414684b739ea10842310,09/10/2019 07:43:54G,1568101379,1,0,0
 1440,57,0,2,92,0,4aec98de51cc481ba7ee3c556b60074c,d7169ae8f66f4364a9d4de118dcae6a4,09/10/2019 07:43:54G,1568101379,1,0,0
 1441,57,0,2,93,0,409e09ab9ef946edad3553ba14c15360,a4a0d6126f9540a996c0d7e9dfef2f5a,09/10/2019 07:43:54G,1568101379,1,0,0
