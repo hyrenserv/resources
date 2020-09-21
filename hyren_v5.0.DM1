@@ -131,7 +131,7 @@ VersionId,Version_ID,Copyright,Global_User_ID,Row_Time_Stamp
 
 Diagram
 DiagramId,Version_ID,VersionId,LastUpdate,CreateDate,ActiveModel,ActiveSubmodel,VSplitterPosition,X,Y,Width,Height,DiagramNameId,AuthorId,CompanyId,VersionNoId,CopyrightStringId,DefinitionId,UnificationOptionId,FileNameId,CopyrightYearStringId,DiagramName,CodePage,SignatureGUID,ReleaseName,Flags,Global_User_ID,Row_Time_Stamp
-1,1,800,09/16/2020 14:55:53G,02/18/2020 11:16:11G,1,16,180,0,0,0,0,1696,363,363,364,363,0,365,1697,0,1hyren_v5.0.DM1,936,NULL,"",0,1,0
+1,1,800,09/21/2020 10:03:18G,02/18/2020 11:16:11G,1,16,180,0,0,0,0,1696,363,363,364,363,0,365,1697,0,1hyren_v5.0.DM1,936,NULL,"",0,1,0
 
 Model
 DiagramId,ModelId,Model_ID,ModelType,PlatformId,NamePrefix,SpaceHandling,CaseHandling,GenPrimaryKey,GenAlternateKey,GenInversionEntry,GenForeignKey,Notation,ModelNameId,RowOverhead,TableOverhead,IndexOverhead,BlobOverhead,BlobBlockSize,Global_User_ID,Row_Time_Stamp
@@ -199,7 +199,7 @@ DiagramId,ModelId,SubmodelId,DiagramDisplay_ID,Submodel_ID,PlatformId,Animate,Zo
 1,1,11,9,9,0,0,9602,0,0,-1384,334,1,1,8,3264,1,0,1,0,1,1,0,0,0,0,0,1,6601,0,1,6,7,0,0,0,0,0,1,0,1,10
 1,1,12,15,15,0,0,10068,0,0,-307,1246,1,1,8,3264,1,0,1,0,1,1,0,0,0,0,0,1,9222,0,1,6,7,0,0,0,0,0,1,0,1,10
 1,1,14,23,23,0,0,9351,0,0,-403,315,1,1,8,3264,1,0,1,0,1,1,0,0,0,0,0,1,10950,0,1,6,7,0,0,0,0,0,1,0,1,10
-1,1,16,24,24,0,0,10076,0,0,-876,1564,1,1,8,3264,1,0,1,0,1,1,0,0,0,0,0,1,11783,0,1,6,7,0,0,0,0,0,1,0,1,10
+1,1,16,24,24,0,0,10076,0,0,-448,1139,1,1,8,3264,1,0,1,0,1,1,0,0,0,0,0,1,11783,0,1,6,7,0,0,0,0,0,1,0,1,10
 
 GridDisplay
 DiagramId,ModelId,SubmodelId,GridDisplay_ID,Submodel_ID,Show,Snap,HorizontalSpacing,VerticalSpacing,HorizontalGridsPerLine,VericalGridsPerLine,Units,Global_User_ID,Row_Time_Stamp
@@ -3200,7 +3200,7 @@ DiagramId,ModelId,EntityId,AttributeId,Attribute_ID,Entity_ID,UserDatatypeId,Rul
 1,1,234,12,3022,256,0,0,0,0,3274,3275,0,0,0,0,1086,0,-2,-1,N,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12743,0
 1,1,234,15,3027,256,0,0,0,0,274,240,0,0,0,0,1086,0,-2,-1,N,1,1,14,0,0,1,0,0,0,0,0,0,0,0,0,8,0,0,0,12752,0
 1,1,175,15,2256,190,0,0,0,0,1405,1407,0,2383,0,0,1086,0,-2,-1,N,1,1,4,0,122,1,0,0,0,0,32,0,0,0,0,0,0,0,0,9623,0
-1,1,234,17,3030,256,0,0,0,0,3360,3361,0,0,0,0,70,1,2,-1,N,1,1,7,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12756,0
+1,1,234,17,3030,256,0,0,0,0,3360,3361,0,0,0,0,76,1,100,-1,N,1,1,7,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12756,0
 1,1,175,16,2257,190,0,0,0,0,1385,1421,0,0,0,0,1086,0,-2,-1,N,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,18,0,0,0,9625,0
 1,1,234,18,3032,256,0,0,0,0,3364,3365,0,0,0,0,76,1,512,-1,N,1,1,8,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12760,0
 1,1,234,19,3034,256,0,0,0,0,3335,3368,0,0,0,0,76,1,100,-1,N,1,1,9,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,12764,0
@@ -6679,8 +6679,8 @@ String_Id,Data,Overflow,ConstantString,Row_Time_Stamp
 3583,"""01"",""02"",""03"",""04""",0,0,0
 3584,"""字符串<ZiFuChuan>"",""数值<ShuZhi>"",""日期<RiQi>"",""枚举<MeiJu>""",0,0,0
 3585,是否为外部数据,0,0,0
-3586,"",1,0,0
 338,建立用户ID,0,0,0
+3586,"",1,0,0
 339,create_id,0,0,0
 340,token,0,0,0
 341,token有效时间,0,0,0
@@ -15167,10 +15167,10 @@ Identity_Value_ID,Table_Name,Column_Name,Next_Valid_Value,Global_User_ID,Row_Tim
 11,Attachment_Type,Attachment_Type_ID,2,0,0
 12,Attribute,Attribute_ID,3232,0,0
 13,AttributeDisplayOverride,AttributeDisplayOverride_ID,1,0,0
-14,Bound_Dictionary_Object,Bound_Dictionary_Object_ID,3032,0,0
+14,Bound_Dictionary_Object,Bound_Dictionary_Object_ID,3033,0,0
 15,CheckConstraints,CheckConstraints_ID,1,0,0
 16,Circular_Layout,Circular_Layout_ID,25,0,0
-17,ColorDefault,ColorDefault_ID,8828,0,0
+17,ColorDefault,ColorDefault_ID,8840,0,0
 18,Column_Usage,Column_Usage_ID,1,0,0
 19,Components_Layout,Components_Layout_ID,25,0,0
 20,Configuration_Option,Configuration_Option_ID,1,0,0
@@ -17598,7 +17598,6 @@ Bound_Dictionary_Object_ID,Dictionary_Object_ID,MetaTable_ID,Table_Row_ID,Flags,
 1062,139,3,1204,0,0,0,4328
 2870,528,3,2633,0,0,0,13333
 1063,111,3,1205,0,0,0,4330
-2871,530,3,3030,0,0,0,13336
 1064,137,3,1206,0,0,0,4332
 2872,266,3,3034,0,0,0,13337
 1065,107,3,1207,0,0,0,4334
@@ -17884,8 +17883,9 @@ Bound_Dictionary_Object_ID,Dictionary_Object_ID,MetaTable_ID,Table_Row_ID,Flags,
 1221,149,3,1363,0,0,0,4971
 3029,89,3,2633,0,0,0,13560
 3030,115,3,1916,0,0,0,13561
-3031,139,3,3208,0,0,0,13562
 1223,147,3,1209,0,0,0,4980
+3031,139,3,3208,0,0,0,13562
+3032,266,3,3030,0,0,0,13563
 1224,147,3,1227,0,0,0,4981
 1225,115,3,1365,0,0,0,4989
 1226,107,3,1366,0,0,0,4992
@@ -22536,7 +22536,6 @@ UniqueObject_Id,ObjectType_Id,Model_ID,Object_Domain_ID,InterModel_Id,IntraModel
 3528,48,0,0,0,0,9ee5cce3236f49eb9784848d0294b40b,0b38a1ad4a6a4e0bbd81fb4794241d16,09/10/2019 07:59:07G,1568101906,1,0,0
 13335,62,0,2,531,0,323c2196ea7446efa7e58eec9acb41a6,93890c3256aa47fe9b6ab2c3cd5bfcd2,08/21/2020 07:55:08G,1597996227,1,0,0
 3529,1,1,1,1,63,f099a19cec9a49eaa937c4e48c0fc5d5,b27196e696ed4f5f961a84363f751580,09/10/2019 07:59:07G,1568101906,1,0,0
-13336,48,0,0,0,0,8d66ce2246204091a3e09eef6c45928c,ac63a4f01a32468fa8b87257a4499a4a,08/21/2020 07:55:08G,1597996227,1,0,0
 3530,48,0,0,0,0,bb4af9dade1b4dceaf4fe259afc36a0f,ac1d71c924ff4843857c9c759ffd52da,09/10/2019 07:59:07G,1568101906,1,0,0
 13337,48,0,0,0,0,cf47cbad54204d22b39618c270390e49,4e71401bb8d04b468266cc29f7245b52,08/21/2020 07:55:08G,1597996376,1,0,0
 3531,1,1,1,9,80,99683b28d68f46cf8b9ce0ffbfd11639,b7ef409378d3487b9acce8836dd1e09f,09/10/2019 07:59:07G,1568101906,1,0,0
@@ -22917,8 +22916,9 @@ UniqueObject_Id,ObjectType_Id,Model_ID,Object_Domain_ID,InterModel_Id,IntraModel
 13560,48,0,0,0,0,8bfd63a1d11a4ce89526708ba4c2960c,d5b6fdf5a2854a608493a4e76a1e8b40,09/03/2020 06:46:00G,1599115560,1,0,0
 3754,40,1,1,0,0,341b5384a43a43ce89174e3f9ca9b628,9e0970d427604433af51321defdc2959,09/10/2019 07:59:07G,1568101906,1,0,0
 13561,48,0,0,0,0,c1918f0bbf2345ae895a59a5641bc46c,33fc7917860243a29fb30967325577d0,09/03/2020 09:36:19G,1599125778,1,0,0
-13562,48,0,0,0,0,df03af7efd134358b329bd73b9a99d24,d2e169f26c284bd7bf873694021d2d09,09/16/2020 06:49:08G,1600238948,1,0,0
 3755,6,1,1,1,66,64486a22ca8f400895d626941f25d47b,6c47cdd41f4c41ada89d7105c1d2ab78,09/10/2019 07:59:07G,1568101906,1,0,0
+13562,48,0,0,0,0,df03af7efd134358b329bd73b9a99d24,d2e169f26c284bd7bf873694021d2d09,09/16/2020 06:49:08G,1600238948,1,0,0
+13563,48,0,0,0,0,aee3c85be6e8496088e69e5d7884ca98,3b801aa93136498e9cd18d11940163da,09/21/2020 02:03:18G,1600653798,1,0,0
 3756,40,1,1,0,0,15bbd2ae115f41bd8b14877a44b31d00,f20ad5f23f1d4042a1542e9b28d9edb8,09/10/2019 07:59:07G,1568101906,1,0,0
 3757,6,1,1,1,63,b3bbaeff47244702a1f0c9dfe8f3a5ed,180acff4a9494300a9a5ef24e95a45f4,09/10/2019 07:59:07G,1568101906,1,0,0
 3760,28,1,1,0,0,8b54b77689dc42868299a537becae895,31005bfa176a4055a83f17fe4e4dc9eb,09/10/2019 07:59:07G,1568101906,1,0,0
